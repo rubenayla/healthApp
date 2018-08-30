@@ -21,13 +21,16 @@ Análisis médicos
 
 Otros alimentos consumidos, que no se han sugerido por la app
 
-Síntomas, dolor de cabeza, piel pálida, mareos, debilidad, 
+Sintomas, dolor de cabeza, piel pálida, mareos, debilidad
+
 Ubicación, para estadísticas, datos climáticos, calidad del aire, rad UV, y sugerir alimentos disponibles en la zona
 Preferencias, cantidad de comidas diarias, cantidad en cada comida (votando voluntariamente si le ha parecido mucho o poco, sólo para él y que afecte cantidad media sugerida a otros usuarios, dando prioridad a lo considerado saludable por un médico/nutricionista...), si quiere una dieta para perder peso, ganar masa muscular, una normal que se vaya mejorando con los datos, etc.
-Gustos alimentarios, evaluar el sabor
---
 
-Obtenerlos manualmente o también sincronizar con báscula, detector de glucosa, sensor implantado... detectar códigos de barras? qr? detectar alimentos con la cámara? Detectar valores de un análisis médico con una foto? conectarse con sanidad pública?
+Tener en cuenta sus gustos alimentarios
+
+Obtener los datos manualmente o también sincronizar con básculas, medidores de glucosa, smart watches...
+
+Detectar códigos de barras, qr, reconocer alimentos con la cámara?, Detectar valores de un análisis médico con una foto?, conectarse con sanidad pública?
 
 ### Proceso de los datos
 
