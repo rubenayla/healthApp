@@ -23,6 +23,11 @@ header {
     box-shadow: 0px 0px 8px #000000;
 }
 
+.main-div {
+    position: static; /*default*/
+    font-size: 100%;
+}
+
 a {
 	text-decoration: none;
 }
@@ -44,38 +49,73 @@ a:hover {
     height: inherit;
 }
 
+/* The main menu elements */
+.toolbar-left a {
+    display: inline-block;
+    margin: 17.5px;
+    color: #90e0E0;
+    height: inherit;
+    
+}
+
 .toolbar-right {
     float: right;
     width: 45%;
     height: inherit;
 }
 
-.main-menu {
-    float: left;
-    margin: 17.5px;
-    color: #90e0E0;
-    height: inherit;
-}
 
 .main-menu:hover {
-    color:white;
+    color: white;
 }
 
-.main-div {
-    position: relative;
-    top: 56px;
+
+/****/
+#summary {
+    color: aliceblue;
+    
 }
+
+#shop-list {
+    
+}
+
+#data {
+    
+}
+
+#learn {
+    
+}
+/****/
+
+#search-box {
+    position:relative;
+    display: inline-block;
+    margin: 16px;
+}
+
+.material-icons{
+    font-size: 24px;
+    color: aliceblue;
+    padding: 16px;
+    float: right;
+}
+
+#notification-icon {
+    position:relative;
+    
+}
+
+
 
 #add-button {
     position: fixed;
     top: 1rem;
-    left: 47.5%;
+    left: 47%;
 }
 
-#summary{
-    color: aliceblue;
-    
-}
+
 
 
 /*COLORS*/
