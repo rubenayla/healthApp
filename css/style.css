@@ -7,7 +7,6 @@ body {
 	/*background-color: #000000;*/
 	font-family: 'Open Sans', sans-serif;
     
-    
 }
 
 header {
@@ -51,11 +50,16 @@ a:hover {
 
 /* The main menu elements */
 .toolbar-left a {
+    float: left;
     display: inline-block;
-    margin: 17.5px;
+    padding: 17.5px;
     color: #90e0E0;
     height: inherit;
     
+}
+
+.toolbar-left a:hover {
+    color: aliceblue;
 }
 
 .toolbar-right {
@@ -64,13 +68,26 @@ a:hover {
     height: inherit;
 }
 
-
-.main-menu:hover {
-    color: white;
+.toolbar-right i {
+    float: right;
+    display: inline-block;
+    font-size: 24px;
+    color: aliceblue;
+    padding: 16px;
 }
 
+.toolbar-right input {
+    float: right;
+    background-color: aliceblue;
+    width: 20%;
+    margin: 17px;
+    padding: 2px;
+    padding-left: 12px;
+    border: none;
+    border-radius: 12px;
+    
+}
 
-/****/
 #summary {
     color: aliceblue;
     
@@ -87,32 +104,30 @@ a:hover {
 #learn {
     
 }
-/****/
 
-#search-box {
-    position:relative;
-    display: inline-block;
-    margin: 16px;
-}
 
-.material-icons{
-    font-size: 24px;
-    color: aliceblue;
-    padding: 16px;
-    float: right;
-}
 
-#notification-icon {
-    position:relative;
+#more-icon {
     
 }
 
+#notifications-icon {
+    
+}
 
+#profile-icon {
+    
+}
+
+#search-box {
+    
+}
 
 #add-button {
     position: fixed;
     top: 1rem;
     left: 47%;
+    
 }
 
 
