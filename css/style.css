@@ -23,8 +23,8 @@ header {
 }
 
 .main-div {
-    position: static; /*default*/
-    font-size: 100%;
+    position: absolute; /*default*/
+    top: 56px;
 }
 
 a {
@@ -69,6 +69,7 @@ a:hover {
 }
 
 .toolbar-right i {
+    position: static;
     float: right;
     display: inline-block;
     font-size: 24px;
@@ -77,12 +78,14 @@ a:hover {
 }
 
 .toolbar-right input {
+    position: static;
     float: right;
     background-color: aliceblue;
-    width: 20%;
+    width: 25%;
     margin: 17px;
     padding: 2px;
     padding-left: 12px;
+    padding-right: 12px;
     border: none;
     border-radius: 12px;
     
