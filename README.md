@@ -65,7 +65,7 @@ Choose degree of experimentation (with your food, to learn from yourself and pro
 1Doc3 que tenga dice lo más probable que te pasa según tus síntomas
 Seleccionar rango de precios para búsqueda concreta y presupuesto estimado para las predicciones
 Puntuación de lo sana que es a lo largo de la semana (combinación de comidas)
-
+Crear hábitos con esta app
 
 
 
