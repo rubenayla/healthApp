@@ -1,5 +1,6 @@
 /* Primary color is CYAN(300,700,900) */
 html {
+    font-size: 16px;
     
 }
 
@@ -15,7 +16,7 @@ header {
     z-index: 1;
 	overflow: hidden;
 	width: 100%;
-	height: 56px !important;
+	height: 56px;
     margin: 0;
 	padding: 0;
     border: 0;
@@ -25,6 +26,10 @@ header {
 .main-div {
     position: absolute; /*default*/
     top: 56px;
+    left: 0px;
+    margin: 0;
+    padding: 2%;
+    
 }
 
 a {
@@ -46,6 +51,7 @@ a:hover {
     float: left;
     width: 45%;
     height: inherit;
+    padding: 2px;
 }
 
 /* The main menu elements */
@@ -88,6 +94,25 @@ a:hover {
     padding-right: 12px;
     border: none;
     border-radius: 12px;
+}
+
+.today-meal-title {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    
+}
+
+.today-meal-content {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.today-meal-content div img {
+    margin: 2px;;
+    border: none;
+    border-radius: 20px;
     
 }
 
