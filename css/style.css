@@ -7,20 +7,24 @@ html {
 body {
 	/*background-color: #000000;*/
 	font-family: 'Open Sans', sans-serif;
-    
+	
 }
 
 header {
 	position: fixed;
 	top: 0;
 	z-index: 1;
-	overflow: hidden;
+	overflow: visible;
 	width: 100%;
 	height: 56px;
 	margin: 0;
 	padding: 0;
 	border: 0;
 	box-shadow: 0px 0px 8px #000000;
+}
+
+footer a {
+	
 }
 
 .main-div {
@@ -48,19 +52,19 @@ a:hover {
 }
 
 .toolbar-left {
-    float: left;
-    width: 45%;
-    height: inherit;
-    padding: 2px;
+	float: left;
+    width: 40%;
+    margin: 18.5px 12px;
 }
 
 /* The main menu elements */
 .toolbar-left a {
-    float: left;
+	position: static;
+	float: left;
     display: inline-block;
-    padding: 17.5px;
+	margin: 0px;
+    padding: 0px 12px;
     color: #90e0E0;
-    height: inherit;
     
 }
 
@@ -70,33 +74,37 @@ a:hover {
 
 .toolbar-right {
     float: right;
-    width: 45%;
-    height: inherit;
+    width: 40%;
+	/* 16 * 2 + 24 = 56 */
+	margin: 16px 12px;
 }
 
 .toolbar-right i {
+	position: static;
     float: right;
     display: inline-block;
+	margin: 0px;
+    padding: 0px 12px;
+	/* Size of icons */
     font-size: 24px;
     color: aliceblue;
-    padding: 16px;
 }
 
 .toolbar-right input {
+	position: static;
     float: right;
-    background-color: aliceblue;
+	display: inline-block;
     width: 25%;
-    margin: 17px;
-    padding: 2px;
-    padding-left: 12px;
-    padding-right: 12px;
+    margin: 3px 12px;
+    padding: 0px 12px;
     border: none;
     border-radius: 12px;
+    background-color: aliceblue;
 }
 
 .today-meal-title {
     font-size: 24px;
-    padding: 5px;
+    padding: 10px 0px 5px 10px;
 }
 
 .today-meal-content {
@@ -114,6 +122,7 @@ a:hover {
 	background-repeat: no-repeat;
  	/*background-image: url("../random-image.jpg");*/
 	background-image: url("https://source.unsplash.com/random/300x400");
+	
 	
 }
 
