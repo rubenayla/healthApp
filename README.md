@@ -2,7 +2,7 @@
 
 An app that predicts what should you eat, your possible diseases, and how to prevent them, based on your data.
 
-The app gets a lot of data to know exactly what do you need. Then it shows you some options of things that you can eat, based on your personal preferences, your health, if you want to buy online, go to a restaurant or cook yourself, your ability cooking, etc. and asks you questions about how you feel, etc. The app should have a section in which you can see why the app tells you those things, and learn some things about nutrition.
+The app gets a lot of data to know exactly what do you need. Then it shows you some options of things that you can eat, based on your personal preferences, your health, if you want to buy online, go to a restaurant or cook yourself, your ability cooking, etc. and asks you questions about how you feel, etc. The app should have a section in which you can understand the decisions that has made, and learn about nutrition.
 
 
 ## FUNCIONALIDADES
