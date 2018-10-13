@@ -7,7 +7,7 @@ html {
 body {
 	/*background-color: #000000;*/
 	font-family: 'Open Sans', sans-serif;
-	background-color:$mycolor;
+	
 }
 
 header {
@@ -20,7 +20,13 @@ header {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	box-shadow: 0px 0px 8px #000000;
+	background-color: #0097A7;
+	/*background: linear-gradient(to bottom right, #4DD0E1,#006064);*/
+	box-shadow: 0px 0px 4px #000000;
+}
+
+footer {
+	background-color: #0097A7;
 }
 
 footer nav {
@@ -106,17 +112,6 @@ a:hover {
     background-color: aliceblue;
 }
 
-.today-meal-title {
-    font-size: 24px;
-    padding: 10px 0px 5px 10px;
-}
-
-.today-meal-content {
-    display: flex;
-	flex-flow: row wrap;
-	padding: 10px 0px 30px 0px;
-}
-
 .today-meal-content div {
     width: 200px;
 	height: 300px;
@@ -130,46 +125,11 @@ a:hover {
 	
 }
 
-#summary {
-    
-}
-
-#shop-list {
-    
-}
-
-#data {
-    
-}
-
-#learn {
-    
-}
-
-
-
-#more-icon {
-    
-}
-
-#notifications-icon {
-    
-}
-
-#profile-icon {
-    
-}
-
-#search-box {
-    
-}
-
 #add-button {
     position: fixed;
     top: 1rem;
     left: 47%;
 	
-    
 }
 
 /*COLORS*/
