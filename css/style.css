@@ -112,19 +112,6 @@ a:hover {
     background-color: aliceblue;
 }
 
-.today-meal-content div {
-    width: 200px;
-	height: 300px;
-    margin: 2px;
-    border: none;
-    border-radius: 20px;
-	background-repeat: no-repeat;
- 	/*background-image: url("../random-image.jpg");*/
-	background-image: url("https://source.unsplash.com/random/300x400");
-	
-	
-}
-
 #add-button {
     position: fixed;
     top: 1rem;
