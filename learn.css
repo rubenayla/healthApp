@@ -1,7 +1,7 @@
 #learn {
 	color: aliceblue;
 }
-ol a {
+ol li a {
 	text-decoration: underline;
 	color: blue;
 }
