@@ -66,6 +66,6 @@ Choose degree of experimentation (with your food, to learn from yourself and pro
 Seleccionar rango de precios para búsqueda concreta y presupuesto estimado para las predicciones
 Puntuación de lo sana que es a lo largo de la semana (combinación de comidas)
 Crear hábitos con esta app
-
+Alimentos económicos para la pobreza
 
 
