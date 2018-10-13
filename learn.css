@@ -1,8 +1,7 @@
 #learn {
 	color: aliceblue;
 }
-
-.today-meal-header {
-    font-size: 24px;
-    padding: 10px 0px 5px 10px;
+ol a {
+	text-decoration: underline;
+	color: blue;
 }
