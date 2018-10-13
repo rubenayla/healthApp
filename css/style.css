@@ -1,13 +1,13 @@
 /* Primary color is CYAN(300,700,900) */
+
 html {
     font-size: 16px;
     
 }
-
 body {
 	/*background-color: #000000;*/
 	font-family: 'Open Sans', sans-serif;
-	
+	background-color:$mycolor;
 }
 
 header {
@@ -23,14 +23,18 @@ header {
 	box-shadow: 0px 0px 8px #000000;
 }
 
-footer a {
+footer nav {
+	display: inline-block;
+	margin: 10px 30px;
+}
+
+footer nav a {
+	display: block;
 	
 }
 
 .main-div {
     position: static; /*default*/
-    /*top: 56px;
-    left: 0px;*/
     margin: 56px 0px 0px 0px;
     padding: 2%;
     
@@ -127,7 +131,6 @@ a:hover {
 }
 
 #summary {
-    color: aliceblue;
     
 }
 
