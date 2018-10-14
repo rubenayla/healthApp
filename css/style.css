@@ -78,7 +78,7 @@ a:hover {
 	float: left;
     display: inline-block;
 	margin: 0px;
-    padding: 18px 12px;
+    padding: 18.5px 12px;
     color: #90e0E0;
     
 }
@@ -135,7 +135,7 @@ a:hover {
 	}
 	
 }
-@media only screen and (max-width: 20000px) {
+@media only screen and (max-width: 13cm) {
 	header {
 		bottom: 0;
 		top: auto;
@@ -147,15 +147,11 @@ a:hover {
 	}
 	
 	.main-div {
-    position: absolute; /*default*/
-	/* Debajo del header */
-    margin: 0px 0px 56px 0px;
-    padding: 2%;
-    
+    	margin: 0px 0px 56px 0px;
 	}
 }
 
-
+/*<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="small-device.css" />*/
 
 
 
