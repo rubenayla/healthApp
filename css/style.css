@@ -135,7 +135,7 @@ a:hover {
 	}
 	
 }
-@media only screen and (max-width: 15cm) {
+@media only screen and (max-width: 20000px) {
 	header {
 		bottom: 0;
 		top: auto;
@@ -144,6 +144,14 @@ a:hover {
 	#add-button {
     	top: -1rem;
 		
+	}
+	
+	.main-div {
+    position: absolute; /*default*/
+	/* Debajo del header */
+    margin: 0px 0px 56px 0px;
+    padding: 2%;
+    
 	}
 }
 
